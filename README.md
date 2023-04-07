@@ -1,2 +1,4 @@
 # Clasification_AlexNet
 AlexNet study
+1、数据集的使用：根据data_set里的readme提示下载数据集，用脚本划分训练集和验证集
+2、代码主要需要更改的是根据显存改batch_size、全连接最后层数的num_classes=类别数、第一次训练没有权重文件需要把导入权重文件的代码注释掉
